@@ -1,0 +1,36 @@
+{
+  "name": "@ish_/path-pointer",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "path-pointer.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "jest": "^28.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Create fast getter/setter precompiled functions pointing to path destination",
+  "keywords": [
+    "path",
+    "precompiled",
+    "get",
+    "getter",
+    "set",
+    "setter",
+    "fast",
+    "pointer",
+    "es6 module",
+    "lodash"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ish-/path-pointer.git"
+  },
+  "author": "Vladislav Pavlov <imwaves@gmail.com> (https://dearwhoever.space/)",
+  "license": "ISC"
+}
