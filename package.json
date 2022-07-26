@@ -4,7 +4,7 @@
   "type": "module",
   "main": "path-pointer.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules $(npm bin)/jest"
   },
   "sideEffects": false,
   "devDependencies": {
